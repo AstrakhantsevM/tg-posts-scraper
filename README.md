@@ -135,7 +135,7 @@ summary = await pipeline.run(prompt=prompt, data=posts)
 
 Another key feature is how it operates big batches using a true **hierarchical Map-Reduce pattern** that recursively collapses results until they fit model limits:
 
-'''
+```
     ┌─────────────────────────────────────────────────────────────────┐
     │  Входные данные (N постов)                                      │
     │       │                                                         │
@@ -165,7 +165,7 @@ Another key feature is how it operates big batches using a true **hierarchical M
     │             │    ОТВЕТ    │                                     │
     │             └─────────────┘                                     │
     └─────────────────────────────────────────────────────────────────┘
-'''
+```
 
 ### 4. The 7-Layer Inference Pool
 

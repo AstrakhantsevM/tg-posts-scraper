@@ -11,7 +11,6 @@
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-Multi--Model-green)](https://openrouter.ai/)
 [![Pydantic](https://img.shields.io/badge/Pydantic-v2-E92063)](https://docs.pydantic.dev/)
 [![python-docx](https://img.shields.io/badge/python--docx-Document%20Output-2B579A)](https://python-docx.readthedocs.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
 
@@ -366,12 +365,6 @@ Change the preset name to switch between monitoring scenarios. Output will appea
 Free-tier LLM APIs are fast and capable but fundamentally unreliable under load. Rather than treating any single provider as authoritative, this framework treats the **pool of providers** as the reliable unit. Any individual agent can fail silently — the pipeline continues. Only when every configured layer is exhausted does a batch fail, and even then the system logs critically rather than silently dropping data.
 
 This approach makes it practical to run large-scale analytical workloads at **zero infrastructure cost**, using only free API tiers across multiple providers.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 

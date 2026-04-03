@@ -1,7 +1,5 @@
-import os
 import asyncio
 import logging
-from itertools import islice
 
 # Импортируем наши классы
 from agents.openrouter_agent import OpenRouterAgent

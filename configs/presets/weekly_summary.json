@@ -5,12 +5,12 @@
   "prompt_file": "fertility_support_analyst.txt",
   "pipeline": {
     "max_concurrent_tasks": 2,
-    "max_chars_per_batch": 10000,
+    "max_chars_per_batch": 5000,
     "max_retries": 3
   },
   "scraper": {
-    "stop_date": null,
-    "days_back": 7
+    "stop_date": "2026-03-31",
+    "days_back": 1
   },
   "output": {
     "save_to_file": true,

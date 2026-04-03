@@ -136,9 +136,9 @@ async def main():
 
             # ДОБАВЛЕНА ПРОВЕРКА: Если вернулся None, значит пайплайн упал.
             if summary is None:
-                logging.error(
+                logging.critical(
                     f"❌ [ОШИБКА ИИ] Пайплайн вернул None для {region_name}. Пропускаем сохранение, чтобы не записать null.")
-                continue  # Идем к следующему региону в цикле
+                break  # Выходим из цикла регионов
 
             final_report[region_name] = summary
 

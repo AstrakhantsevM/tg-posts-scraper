@@ -133,7 +133,39 @@ summary = await pipeline.run(prompt=prompt, data=posts)
 
 **How fallback works:** If an agent fails (rate limit, 404, quota exhaustion), the manager automatically promotes the next agent in the list. The `max_retries` ceiling equals the total number of configured agents plus a safety buffer — so every agent gets a chance before the batch is declared lost.
 
----
+Another key feature is how it operates big batches using a true **hierarchical Map-Reduce pattern** that recursively collapses results until they fit model limits:
+
+'''
+    ┌─────────────────────────────────────────────────────────────────┐
+    │  Входные данные (N постов)                                      │
+    │       │                                                         │
+    │  ┌────▼────┐  ┌─────────┐  ┌─────────┐                          │
+    │  │ Батч 1  │  │ Батч 2  │  │ Батч 3  │  ← MAP: параллельно      │
+    │  └────┬────┘  └────┬────┘  └────┬────┘                          │
+    │       │            │            │                               │
+    │  ┌────▼────┐  ┌────▼────┐  ┌───▼─────┐                          │
+    │  │ Ответ 1 │  │ Ответ 2 │  │ Ответ 3 │                          │
+    │  └────┬────┘  └────┬────┘  └───┬─────┘                          │
+    │       └────────────┴───────────┘                                │
+    │                    │                                            │
+    │             ┌──────▼──────┐                                     │
+    │             │  Слишком    │  Если суммарный объём               │
+    │             │  большой?   │  ответов превышает лимит →          │
+    │             └──────┬──────┘  снова батчим и редьюсим!           │
+    │                    │                                            │
+    │          ┌─────────┴─────────┐                                  │
+    │     ┌────▼────┐         ┌────▼────┐  ← REDUCE уровень 1         │
+    │     │ Мини-   │         │ Мини-   │                             │
+    │     │ саммари │         │ саммари │                             │
+    │     └────┬────┘         └────┬────┘                             │
+    │          └─────────┬─────────┘                                  │
+    │                    │                                            │
+    │             ┌──────▼──────┐  ← REDUCE уровень 2                 │
+    │             │   ИТОГОВЫЙ  │                                     │
+    │             │    ОТВЕТ    │                                     │
+    │             └─────────────┘                                     │
+    └─────────────────────────────────────────────────────────────────┘
+'''
 
 ### 4. The 7-Layer Inference Pool
 

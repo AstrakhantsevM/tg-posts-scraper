@@ -1,0 +1,18 @@
+# virtualenv
+.venv
+.env
+*.session
+
+# PyCharm
+.idea/
+*.iml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF

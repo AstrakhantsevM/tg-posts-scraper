@@ -1,0 +1,19 @@
+{
+  "name": "weekly_summary",
+  "description": "Парсинг с целью выявления нововведенных мер поддержки семей в регионах",
+  "regions": "all",
+  "prompt_file": "fertility_support_analyst.txt",
+  "pipeline": {
+    "max_concurrent_tasks": 2,
+    "max_chars_per_batch": 10000,
+    "max_retries": 3
+  },
+  "scraper": {
+    "stop_date": null,
+    "days_back": 7
+  },
+  "output": {
+    "save_to_file": true,
+    "filepath": null
+  }
+}

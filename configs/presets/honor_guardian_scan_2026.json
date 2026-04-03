@@ -1,0 +1,19 @@
+{
+  "name": "honor_guardian_scan_2026",
+  "description": "Мониторинг упоминаний госпрограмм по всем регионам",
+  "regions": "all",
+  "prompt_file": "family_tradition_keepers.txt",
+  "pipeline": {
+    "max_concurrent_tasks": 2,
+    "max_chars_per_batch": 5000,
+    "max_retries": 3
+  },
+  "scraper": {
+    "stop_date": "2026-01-01",
+    "days_back": 1
+  },
+  "output": {
+    "save_to_file": true,
+    "filepath": null
+  }
+}

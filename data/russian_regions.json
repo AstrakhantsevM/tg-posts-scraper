@@ -1,0 +1,504 @@
+[{
+  "name": "Белгородская область",
+  "social_media": {
+    "telegram": "@minsoctrud"
+  }
+},
+{
+  "name": "Брянская область",
+  "social_media": {
+    "telegram": "@uszn032"
+  }
+},
+{
+  "name": "Владимирская область",
+  "social_media": {
+    "telegram": "@dsznvo"
+  }
+},
+{
+  "name": "Воронежская область",
+  "social_media": {
+    "telegram": "@dszvo36"
+  }
+},
+{
+  "name": "Ивановская область",
+  "social_media": {
+    "telegram": "@dszn_ivobl"
+  }
+},
+{
+  "name": "Калужская область",
+  "social_media": {
+    "telegram": "@mintrud_40"
+  }
+},
+{
+  "name": "Костромская область",
+  "social_media": {
+    "telegram": "@deptrud44"
+  }
+},
+{
+  "name": "Курская область",
+  "social_media": {
+    "telegram": "@social46"
+  }
+},
+{
+  "name": "Липецкая область",
+  "social_media": {
+    "telegram": "@usznlo"
+  }
+},
+{
+  "name": "Московская область",
+  "social_media": {
+    "telegram": "@msr_mosreg"
+  }
+},
+{
+  "name": "Орловская область",
+  "social_media": {
+    "telegram": "@dszn57"
+  }
+},
+{
+  "name": "Рязанская область",
+  "social_media": {
+    "telegram": "@mintrud_rzn"
+  }
+},
+{
+  "name": "Смоленская область",
+  "social_media": {
+    "telegram": "@Socinfo67"
+  }
+},
+{
+  "name": "Тамбовская область",
+  "social_media": {
+    "telegram": "@uszntmb"
+  }
+},
+{
+  "name": "Тверская область",
+  "social_media": {
+    "telegram": "@family_tverreg"
+  }
+},
+{
+  "name": "Тульская область",
+  "social_media": {
+    "telegram": "@mintrud_tularegion"
+  }
+},
+{
+  "name": "Ярославская область",
+  "social_media": {
+    "telegram": "@mskntr76"
+  }
+},
+{
+  "name": "Москва",
+  "social_media": {
+    "telegram": "@dsznmos"
+  }
+},
+{
+  "name": "Республика Карелия",
+  "social_media": {
+    "telegram": "@minsocrk"
+  }
+},
+{
+  "name": "Республика Коми",
+  "social_media": {
+    "telegram": "@mintrudsocKomi"
+  }
+},
+{
+  "name": "Архангельская область",
+  "social_media": {
+    "telegram": "@mintrudao"
+  }
+},
+{
+  "name": "Вологодская область",
+  "social_media": {
+    "telegram": "@nachalnicdepartamenta"
+  }
+},
+{
+  "name": "Калининградская область",
+  "social_media": {
+    "telegram": "@minsoc39"
+  }
+},
+{
+  "name": "Ленинградская область",
+  "social_media": {
+    "telegram": "@soc_47"
+  }
+},
+{
+  "name": "Мурманская область",
+  "social_media": {
+    "telegram": "@minsoc51"
+  }
+},
+{
+  "name": "Новгородская область",
+  "social_media": {
+    "telegram": "@mintrud_53"
+  }
+},
+{
+  "name": "Псковская область",
+  "social_media": {
+    "telegram": "@socialpskov"
+  }
+},
+{
+  "name": "Санкт-Петербург",
+  "social_media": {
+    "telegram": "@kspgovspb"
+  }
+},
+{
+  "name": "Республика Адыгея",
+  "social_media": {
+    "telegram": "@mintrud_ra01"
+  }
+},
+{
+  "name": "Республика Калмыкия",
+  "social_media": {
+    "telegram": "@minsoc08"
+  }
+},
+{
+  "name": "Республика Крым",
+  "social_media": {
+    "telegram": "@mtrudrk"
+  }
+},
+{
+  "name": "Краснодарский край",
+  "social_media": {
+    "telegram": "@mintrudkubani"
+  }
+},
+{
+  "name": "Астраханская область",
+  "social_media": {
+    "telegram": "@minsoctrudao"
+  }
+},
+{
+  "name": "Волгоградская область",
+  "social_media": {
+    "telegram": "@socialprotection34"
+  }
+},
+{
+  "name": "Ростовская область",
+  "social_media": {
+    "telegram": "@mintrudoblasti"
+  }
+},
+{
+  "name": "Севастополь",
+  "social_media": {
+    "telegram": "@dtsznsevastopol"
+  }
+},
+{
+  "name": "Республика Дагестан",
+  "social_media": {
+    "telegram": "@ministerstvotrudard"
+  }
+},
+{
+  "name": "Республика Ингушетия",
+  "social_media": {
+    "telegram": "@Mintrudri"
+  }
+},
+{
+  "name": "Кабардино-Балкарская Республика",
+  "social_media": {
+    "telegram": "@minsockbr"
+  }
+},
+{
+  "name": "Карачаево-Черкесская Республика",
+  "social_media": {
+    "telegram": "@mintrudkchr"
+  }
+},
+{
+  "name": "Республика Северная Осетия-Алания",
+  "social_media": {
+    "telegram": "@mintrud_15"
+  }
+},
+{
+  "name": "Чеченская Республика",
+  "social_media": {
+    "telegram": "@mtchr95"
+  }
+},
+{
+  "name": "Ставропольский край",
+  "social_media": {
+    "telegram": "@molodezh26"
+  }
+},
+{
+  "name": "Республика Башкортостан",
+  "social_media": {
+    "telegram": "@mintrud_rb"
+  }
+},
+{
+  "name": "Республика Марий Эл",
+  "social_media": {
+    "telegram": "@minsorme"
+  }
+},
+{
+  "name": "Республика Мордовия",
+  "social_media": {
+    "telegram": "@msztzn_rm"
+  }
+},
+{
+  "name": "Республика Татарстан",
+  "social_media": {
+    "telegram": "@mtsz_rt"
+  }
+},
+{
+  "name": "Удмуртская Республика",
+  "social_media": {
+    "telegram": "@minsoc18udm"
+  }
+},
+{
+  "name": "Чувашская Республика",
+  "social_media": {
+    "telegram": "@mintrud21"
+  }
+},
+{
+  "name": "Пермский край",
+  "social_media": {
+    "telegram": "@minsoc_permkrai"
+  }
+},
+{
+  "name": "Кировская область",
+  "social_media": {
+    "telegram": "@socrazvitie43"
+  }
+},
+{
+  "name": "Нижегородская область",
+  "social_media": {
+    "telegram": "@minsoc52"
+  }
+},
+{
+  "name": "Оренбургская область",
+  "social_media": {
+    "telegram": "@msrorb"
+  }
+},
+{
+  "name": "Пензенская область",
+  "social_media": {
+    "telegram": "@mintrud_penza"
+  }
+},
+{
+  "name": "Самарская область",
+  "social_media": {
+    "telegram": "@minsocdemSO"
+  }
+},
+{
+  "name": "Саратовская область",
+  "social_media": {
+    "telegram": "@mintrud_saratov"
+  }
+},
+{
+  "name": "Ульяновская область",
+  "social_media": {
+    "telegram": "@minsoc73"
+  }
+},
+{
+  "name": "Курганская область",
+  "social_media": {
+    "telegram": "@szn45"
+  }
+},
+{
+  "name": "Свердловская область",
+  "social_media": {
+    "telegram": "@minsoc96"
+  }
+},
+{
+  "name": "Тюменская область",
+  "social_media": {
+    "telegram": "@tyum_soc"
+  }
+},
+{
+  "name": "Челябинская область",
+  "social_media": {
+    "telegram": "@minsoc74chelobl"
+  }
+},
+{
+  "name": "Республика Тыва",
+  "social_media": {
+    "telegram": "@mintrud_tuva"
+  }
+},
+{
+  "name": "Республика Хакасия",
+  "social_media": {
+    "telegram": "@mintrudrh"
+  }
+},
+{
+  "name": "Алтайский край",
+  "social_media": {
+    "telegram": "@aksp_ru"
+  }
+},
+{
+  "name": "Красноярский край",
+  "social_media": {
+    "telegram": "@socpolitica24"
+  }
+},
+{
+  "name": "Иркутская область",
+  "social_media": {
+    "telegram": "@irkzan"
+  }
+},
+{
+  "name": "Кемеровская область",
+  "social_media": {
+    "telegram": "@MSZNKUZBASS"
+  }
+},
+{
+  "name": "Новосибирская область",
+  "social_media": {
+    "telegram": "@mtsrnsoru"
+  }
+},
+{
+  "name": "Омская область",
+  "social_media": {
+    "telegram": "@mintrud55"
+  }
+},
+{
+  "name": "Томская область",
+  "social_media": {
+    "telegram": "@socialtomsk"
+  }
+},
+{
+  "name": "Республика Бурятия",
+  "social_media": {
+    "telegram": "@minsoc_buryatia"
+  }
+},
+{
+  "name": "Забайкальский край",
+  "social_media": {
+    "telegram": "@minsoc75"
+  }
+},
+{
+  "name": "Республика Саха",
+  "social_media": {
+    "telegram": "@mintrud_yakutia"
+  }
+},
+{
+  "name": "Камчатский край",
+  "social_media": {
+    "telegram": "@minsoc41"
+  }
+},
+{
+  "name": "Приморский край",
+  "social_media": {
+    "telegram": "@mintrudpk"
+  }
+},
+{
+  "name": "Хабаровский край",
+  "social_media": {
+    "telegram": "@mszn_official"
+  }
+},
+{
+  "name": "Амурская область",
+  "social_media": {
+    "telegram": "@minsotsamur"
+  }
+},
+{
+  "name": "Магаданская область",
+  "social_media": {
+    "telegram": "@mintrud49"
+  }
+},
+{
+  "name": "Сахалинская область",
+  "social_media": {
+    "telegram": "@minsotc65"
+  }
+},
+{
+  "name": "Еврейская автономная область",
+  "social_media": {
+    "telegram": "@socialeao"
+  }
+},
+{
+  "name": "Чукотский автономный округ",
+  "social_media": {
+    "telegram": "@depsp_chukotka"
+  }
+},
+{
+  "name": "Ненецкий автономный округ",
+  "social_media": {
+    "telegram": "@zdravnao"
+  }
+},
+{
+  "name": "Ханты-Мансийский автономный округ",
+  "social_media": {
+    "telegram": "@dsrhmao"
+  }
+},
+{
+  "name": "Ямало-Ненецкий автономный округ",
+  "social_media": {
+    "telegram": "@dsznyanao"
+  }
+}]

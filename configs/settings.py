@@ -57,6 +57,36 @@ class TelegramSettings(BaseConfig):
     # Дефолтная версия
     session_path: str = "sessions/default_session"
 
+class ReportSettings(BaseConfig):
+    """
+    Настройки генерации .docx-отчётов мониторинга СМИ.
+    Все пути — абсолютные (через BASE_DIR), чтобы скрипт работал
+    из любой рабочей директории.
+    """
+
+    # ── Пути ─────────────────────────────────────────────────────────────────
+    # Корень данных; можно переопределить через .env: DATA_ROOT=/mnt/nas/data
+    DATA_ROOT: Path = BASE_DIR / "data"
+
+    # Куда сохранять готовые отчёты (по умолчанию — Desktop текущего юзера)
+    REPORT_OUTPUT_DIR: Path = Path.home() / "Desktop"
+
+    # ── Оформление ───────────────────────────────────────────────────────────
+    REPORT_FONT: str = "Arial"          # шрифт документа
+    REPORT_LANG: str = "ru"             # язык (для будущей i18n)
+
+    # ── Поведение парсера ─────────────────────────────────────────────────────
+    # Сколько постов из raw.json просматривать для определения канала
+    RAW_POSTS_SCAN_LIMIT: int = 200
+
+    # ── Валидатор пути ────────────────────────────────────────────────────────
+    @field_validator("REPORT_OUTPUT_DIR", mode="before")
+    @classmethod
+    def ensure_output_dir_exists(cls, value: Path) -> Path:
+        path = Path(value)
+        path.mkdir(parents=True, exist_ok=True)
+        return path
+
 class AppSettings(BaseConfig):
     """
     ГЛАВНЫЙ КЛАСС.
@@ -78,6 +108,8 @@ class AppSettings(BaseConfig):
     # Теперь мы можем обращаться к ним через точку: settings.api.mistral_key
     api: APISettings = APISettings()
     tg: TelegramSettings = TelegramSettings()
+
+    report: ReportSettings = ReportSettings()
 
     # ВАЛИДАТОР (Проверка на адекватность)
     @field_validator("LOG_LEVEL")

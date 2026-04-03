@@ -134,6 +134,12 @@ async def main():
             # Запускаем анализ
             summary = await pipeline.run(prompt=prompt, data=posts)
 
+            # ДОБАВЛЕНА ПРОВЕРКА: Если вернулся None, значит пайплайн упал.
+            if summary is None:
+                logging.error(
+                    f"❌ [ОШИБКА ИИ] Пайплайн вернул None для {region_name}. Пропускаем сохранение, чтобы не записать null.")
+                continue  # Идем к следующему региону в цикле
+
             final_report[region_name] = summary
 
             # Сразу сохраняем готовый отчет по региону

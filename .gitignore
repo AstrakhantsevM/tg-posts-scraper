@@ -13,6 +13,7 @@ __pycache__/
 *.pyo
 
 # OS files
+data/honor_guardian_scan_2026/
 .DS_Store
 Thumbs.db
 EOF
